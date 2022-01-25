@@ -1,11 +1,11 @@
 import React from 'react';
+import './Animal.css';
 
-export default function Animal(props) {
-  return <div>
-    <img src={ `./animals/${props.type}.svg` } />
-    <p>{props.name}</p>
-    <p>{props.type}</p>
-    <p>{props.says}</p>
+export default function Animal({ name, type, says }) {
+  return <div className='animal'>
+    <img src={ `./animals/${type}.svg` } />
+    <p>{name}</p>
+    <p>{says}</p>
 
   </div>;
 }
