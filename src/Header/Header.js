@@ -1,5 +1,6 @@
 import React from 'react';
+import './Header.css';
 
-export default function Header() {
-  return <div></div>;
+export default function Header(props) {
+  return <header>{props.greeting}</header>;
 }
