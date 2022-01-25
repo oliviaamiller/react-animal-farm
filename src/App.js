@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
-      <Footer />
+      <Footer email='cuteanimals@farm.org'/>
 
     </div>
   );
