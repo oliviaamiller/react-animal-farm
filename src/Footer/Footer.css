@@ -1,3 +1,8 @@
-/* footer {
- 
-} */
+footer {
+    background-color: rgb(230, 242, 255);
+    color: rgb(27, 52, 0);
+    font-size: 20px;
+    font-family: monospace;
+    padding-bottom: 20px;
+}
+
