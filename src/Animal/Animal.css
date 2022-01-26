@@ -1,18 +1,23 @@
-.animal img {
-    width: 100px;
-}
-
 .animal p {
     width: 200px;
     font-family: monospace;
     font-size: 15px;
     font-weight: bold;
+    padding: 0;
+    margin: 0;
 }
 
 .animal {
-    padding: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .animalName {
     text-transform: uppercase;
+}
+
+.animal img {
+    padding: 10px 40px;
 }

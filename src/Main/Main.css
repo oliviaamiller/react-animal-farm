@@ -1,8 +1,11 @@
 main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-    background-size: cover;
-    height: calc(100vh - 80px);
-    align-content: flex-start;
+  display: flex;
+  flex: 1;
+  overflow: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  background-size: cover;
+  background-repeat: no-repeat;
   }
+
+  
